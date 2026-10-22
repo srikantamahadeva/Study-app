@@ -1,0 +1,7 @@
+# Copy to .dev.vars for local development with real Sign in with Freebuff.
+# Get these from `sites_enable_auth` (development variables) or
+# `npx @freebuff/auth register --environment development ...`.
+# Without them the app runs with a local development user on localhost only.
+FREEBUFF_CLIENT_ID=
+FREEBUFF_ISSUER=https://freebuff.com/oidc
+APP_ORIGIN=http://localhost:5173

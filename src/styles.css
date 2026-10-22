@@ -1,0 +1,102 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/plus-jakarta-sans';
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans Variable', ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  --color-bg: #f6f6fa;
+  --color-surface: #ffffff;
+  --color-surface-2: #f0f0f6;
+  --color-raised: #e6e6ef;
+  --color-line: #e6e6ee;
+  --color-line-strong: #d4d4e0;
+  --color-fg: #15141f;
+  --color-muted: #676577;
+  --color-faint: #9b99ab;
+  --color-accent: #5b4df0;
+  --color-accent-soft: #ecebfd;
+  --color-accent-deep: #4a3ddb;
+  --color-success: #1f9d6b;
+  --color-success-soft: #e4f6ed;
+  --color-warning: #c7811a;
+  --color-warning-soft: #fdf2e0;
+  --color-danger: #d9483a;
+  --color-danger-soft: #fdebe9;
+  --color-info: #2f77d1;
+  --color-info-soft: #e8f1fd;
+
+  --radius-control: 14px;
+  --radius-card: 22px;
+  --radius-dialog: 24px;
+  --radius-tile: 12px;
+
+  --shadow-card: 0 1px 2px rgb(21 20 31 / 0.04), 0 0 0 1px rgb(21 20 31 / 0.04);
+  --shadow-pop: 0 0 0 1px rgb(21 20 31 / 0.06), 0 12px 40px -12px rgb(21 20 31 / 0.25);
+  --shadow-dialog: 0 0 0 1px rgb(21 20 31 / 0.06), 0 30px 80px -20px rgb(21 20 31 / 0.35);
+  --shadow-float: 0 20px 60px -24px rgb(91 77 240 / 0.35), 0 0 0 1px rgb(21 20 31 / 0.04);
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    corner-shape: squircle;
+    border-color: var(--color-line);
+  }
+  .round,
+  .round::before,
+  .round::after {
+    corner-shape: round;
+  }
+  html {
+    background: var(--color-bg);
+    color-scheme: light;
+    overscroll-behavior-y: none;
+  }
+  body {
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    font-size: 14.5px;
+    letter-spacing: -0.008em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  button,
+  input,
+  select,
+  textarea {
+    font: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+  }
+  :focus-visible {
+    outline: 2px solid color-mix(in srgb, var(--color-accent) 55%, transparent);
+    outline-offset: 1px;
+  }
+  ::selection {
+    background: color-mix(in srgb, var(--color-accent) 22%, transparent);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@utility scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line-strong) transparent;
+}
+@utility text-balance {
+  text-wrap: balance;
+}
+@utility preserve-3d {
+  transform-style: preserve-3d;
+}
+@utility backface-hidden {
+  backface-visibility: hidden;
+}
