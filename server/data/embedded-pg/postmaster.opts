@@ -1,0 +1,1 @@
+/workspace/chats/0fe654c743a5730d62dcab0a/server/.venv/lib/python3.12/site-packages/pgserver/pginstall/bin/postgres "-D" "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg" "-h" "" "-k" "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg"

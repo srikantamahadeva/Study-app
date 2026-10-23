@@ -1,0 +1,370 @@
+2026-10-22 20:27:49.423 UTC [17842] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-22 20:27:49.609 UTC [17842] LOG:  listening on Unix socket "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg/.s.PGSQL.5432"
+2026-10-22 20:27:50.717 UTC [17846] LOG:  database system was shut down at 2026-10-22 20:27:49 UTC
+2026-10-22 20:27:50.746 UTC [17842] LOG:  database system is ready to accept connections
+2026-10-22 20:27:55.306 UTC [17842] LOG:  received fast shutdown request
+2026-10-22 20:27:55.311 UTC [17842] LOG:  aborting any active transactions
+2026-10-22 20:27:55.312 UTC [17852] FATAL:  terminating connection due to administrator command
+2026-10-22 20:27:55.313 UTC [17842] LOG:  background worker "logical replication launcher" (PID 17849) exited with exit code 1
+2026-10-22 20:27:55.314 UTC [17844] LOG:  shutting down
+2026-10-22 20:27:55.330 UTC [17844] LOG:  checkpoint starting: shutdown immediate
+2026-10-22 20:27:55.516 UTC [17844] LOG:  checkpoint complete: wrote 151 buffers (0.9%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.046 s, sync=0.050 s, total=0.202 s; sync files=211, longest=0.019 s, average=0.001 s; distance=1020 kB, estimate=1020 kB; lsn=0/157F890, redo lsn=0/157F890
+2026-10-22 20:27:55.522 UTC [17842] LOG:  database system is shut down
+2026-10-22 21:29:10.298 UTC [25299] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-22 21:29:10.309 UTC [25299] LOG:  listening on Unix socket "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg/.s.PGSQL.5432"
+2026-10-22 21:29:10.378 UTC [25302] LOG:  database system was shut down at 2026-10-22 20:27:55 UTC
+2026-10-22 21:29:10.396 UTC [25299] LOG:  database system is ready to accept connections
+2026-10-22 21:29:10.738 UTC [25299] LOG:  received fast shutdown request
+2026-10-22 21:29:10.744 UTC [25299] LOG:  aborting any active transactions
+2026-10-22 21:29:10.744 UTC [25306] FATAL:  terminating connection due to administrator command
+2026-10-22 21:29:10.746 UTC [25299] LOG:  background worker "logical replication launcher" (PID 25305) exited with exit code 1
+2026-10-22 21:29:10.746 UTC [25300] LOG:  shutting down
+2026-10-22 21:29:10.751 UTC [25300] LOG:  checkpoint starting: shutdown immediate
+2026-10-22 21:29:10.817 UTC [25300] LOG:  checkpoint complete: wrote 20 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.018 s, sync=0.008 s, total=0.071 s; sync files=6, longest=0.007 s, average=0.002 s; distance=56 kB, estimate=56 kB; lsn=0/158DA90, redo lsn=0/158DA90
+2026-10-22 21:29:10.823 UTC [25299] LOG:  database system is shut down
+2026-10-22 21:32:38.483 UTC [25802] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-22 21:32:38.484 UTC [25802] LOG:  listening on Unix socket "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg/.s.PGSQL.5432"
+2026-10-22 21:32:38.489 UTC [25805] LOG:  database system was shut down at 2026-10-22 21:29:10 UTC
+2026-10-22 21:32:38.493 UTC [25802] LOG:  database system is ready to accept connections
+2026-10-22 21:32:40.376 UTC [25802] LOG:  received fast shutdown request
+2026-10-22 21:32:40.378 UTC [25802] LOG:  aborting any active transactions
+2026-10-22 21:32:40.378 UTC [25809] FATAL:  terminating connection due to administrator command
+2026-10-22 21:32:40.380 UTC [25802] LOG:  background worker "logical replication launcher" (PID 25808) exited with exit code 1
+2026-10-22 21:32:40.380 UTC [25803] LOG:  shutting down
+2026-10-22 21:32:40.381 UTC [25803] LOG:  checkpoint starting: shutdown immediate
+2026-10-22 21:32:40.401 UTC [25803] LOG:  checkpoint complete: wrote 152 buffers (0.9%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.012 s, total=0.022 s; sync files=72, longest=0.003 s, average=0.001 s; distance=243 kB, estimate=243 kB; lsn=0/15CA930, redo lsn=0/15CA930
+2026-10-22 21:32:40.406 UTC [25802] LOG:  database system is shut down
+2026-10-22 21:40:04.894 UTC [26961] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-22 21:40:04.896 UTC [26961] LOG:  listening on Unix socket "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg/.s.PGSQL.5432"
+2026-10-22 21:40:04.907 UTC [26964] LOG:  database system was shut down at 2026-10-22 21:32:40 UTC
+2026-10-22 21:40:04.912 UTC [26961] LOG:  database system is ready to accept connections
+2026-10-22 21:40:06.315 UTC [26968] ERROR:  insert or update on table "audit_events" violates foreign key constraint "audit_events_owner_id_fkey"
+2026-10-22 21:40:06.315 UTC [26968] DETAIL:  Key (owner_id)=(2f7e36f5-8339-4bdf-99c1-e9a3a74f572c) is not present in table "users".
+2026-10-22 21:40:06.315 UTC [26968] STATEMENT:  INSERT INTO audit_events (id, owner_id, action, entity, entity_id, detail, at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::JSON, $7::BIGINT)
+2026-10-22 21:40:07.649 UTC [26968] ERROR:  insert or update on table "audit_events" violates foreign key constraint "audit_events_owner_id_fkey"
+2026-10-22 21:40:07.649 UTC [26968] DETAIL:  Key (owner_id)=(58120251-8d8c-43bb-9603-cce41d246af4) is not present in table "users".
+2026-10-22 21:40:07.649 UTC [26968] STATEMENT:  INSERT INTO audit_events (id, owner_id, action, entity, entity_id, detail, at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::JSON, $7::BIGINT)
+2026-10-22 21:40:08.946 UTC [26968] ERROR:  insert or update on table "audit_events" violates foreign key constraint "audit_events_owner_id_fkey"
+2026-10-22 21:40:08.946 UTC [26968] DETAIL:  Key (owner_id)=(54273cee-dccf-42de-80ba-02a98842f8bd) is not present in table "users".
+2026-10-22 21:40:08.946 UTC [26968] STATEMENT:  INSERT INTO audit_events (id, owner_id, action, entity, entity_id, detail, at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::JSON, $7::BIGINT)
+2026-10-22 21:40:09.833 UTC [26968] ERROR:  insert or update on table "audit_events" violates foreign key constraint "audit_events_owner_id_fkey"
+2026-10-22 21:40:09.833 UTC [26968] DETAIL:  Key (owner_id)=(199f9b1d-7831-4712-bb26-4f6ea374552f) is not present in table "users".
+2026-10-22 21:40:09.833 UTC [26968] STATEMENT:  INSERT INTO audit_events (id, owner_id, action, entity, entity_id, detail, at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::JSON, $7::BIGINT)
+2026-10-22 21:40:10.721 UTC [26968] ERROR:  insert or update on table "audit_events" violates foreign key constraint "audit_events_owner_id_fkey"
+2026-10-22 21:40:10.721 UTC [26968] DETAIL:  Key (owner_id)=(1d272670-c187-4072-8b32-7af4afdbfd01) is not present in table "users".
+2026-10-22 21:40:10.721 UTC [26968] STATEMENT:  INSERT INTO audit_events (id, owner_id, action, entity, entity_id, detail, at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::JSON, $7::BIGINT)
+2026-10-22 21:40:11.653 UTC [26968] ERROR:  insert or update on table "audit_events" violates foreign key constraint "audit_events_owner_id_fkey"
+2026-10-22 21:40:11.653 UTC [26968] DETAIL:  Key (owner_id)=(1d0fa922-f5d8-4bf1-9ef9-095a7bbf3c03) is not present in table "users".
+2026-10-22 21:40:11.653 UTC [26968] STATEMENT:  INSERT INTO audit_events (id, owner_id, action, entity, entity_id, detail, at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::JSON, $7::BIGINT)
+2026-10-22 21:40:12.516 UTC [26968] ERROR:  insert or update on table "audit_events" violates foreign key constraint "audit_events_owner_id_fkey"
+2026-10-22 21:40:12.516 UTC [26968] DETAIL:  Key (owner_id)=(b8b0b0f7-4178-4038-871c-915c702a5c9a) is not present in table "users".
+2026-10-22 21:40:12.516 UTC [26968] STATEMENT:  INSERT INTO audit_events (id, owner_id, action, entity, entity_id, detail, at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::JSON, $7::BIGINT)
+2026-10-22 21:40:13.349 UTC [26968] ERROR:  insert or update on table "audit_events" violates foreign key constraint "audit_events_owner_id_fkey"
+2026-10-22 21:40:13.349 UTC [26968] DETAIL:  Key (owner_id)=(96d3e837-04c4-4e24-b0bd-d21a45074654) is not present in table "users".
+2026-10-22 21:40:13.349 UTC [26968] STATEMENT:  INSERT INTO audit_events (id, owner_id, action, entity, entity_id, detail, at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::JSON, $7::BIGINT)
+2026-10-22 21:40:14.201 UTC [26968] ERROR:  insert or update on table "audit_events" violates foreign key constraint "audit_events_owner_id_fkey"
+2026-10-22 21:40:14.201 UTC [26968] DETAIL:  Key (owner_id)=(1e9dd174-f2fb-45b9-b354-acf9af6ace5c) is not present in table "users".
+2026-10-22 21:40:14.201 UTC [26968] STATEMENT:  INSERT INTO audit_events (id, owner_id, action, entity, entity_id, detail, at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::JSON, $7::BIGINT)
+2026-10-22 21:40:15.173 UTC [26961] LOG:  received fast shutdown request
+2026-10-22 21:40:15.174 UTC [26961] LOG:  aborting any active transactions
+2026-10-22 21:40:15.174 UTC [26968] FATAL:  terminating connection due to administrator command
+2026-10-22 21:40:15.176 UTC [26961] LOG:  background worker "logical replication launcher" (PID 26967) exited with exit code 1
+2026-10-22 21:40:15.177 UTC [26962] LOG:  shutting down
+2026-10-22 21:40:15.178 UTC [26962] LOG:  checkpoint starting: shutdown immediate
+2026-10-22 21:40:15.186 UTC [26962] LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.002 s, total=0.010 s; sync files=6, longest=0.001 s, average=0.001 s; distance=4 kB, estimate=4 kB; lsn=0/15CBD08, redo lsn=0/15CBD08
+2026-10-22 21:40:15.191 UTC [26961] LOG:  database system is shut down
+2026-10-22 21:40:54.966 UTC [27347] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-22 21:40:54.967 UTC [27347] LOG:  listening on Unix socket "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg/.s.PGSQL.5432"
+2026-10-22 21:40:54.971 UTC [27350] LOG:  database system was shut down at 2026-10-22 21:40:15 UTC
+2026-10-22 21:40:54.974 UTC [27347] LOG:  database system is ready to accept connections
+2026-10-22 21:40:55.814 UTC [27354] ERROR:  insert or update on table "audit_events" violates foreign key constraint "audit_events_owner_id_fkey"
+2026-10-22 21:40:55.814 UTC [27354] DETAIL:  Key (owner_id)=(683ec0f0-6c79-47bb-a17f-59db10ba33fc) is not present in table "users".
+2026-10-22 21:40:55.814 UTC [27354] STATEMENT:  INSERT INTO audit_events (id, owner_id, action, entity, entity_id, detail, at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::JSON, $7::BIGINT)
+2026-10-22 21:40:56.789 UTC [27354] ERROR:  insert or update on table "audit_events" violates foreign key constraint "audit_events_owner_id_fkey"
+2026-10-22 21:40:56.789 UTC [27354] DETAIL:  Key (owner_id)=(d272368e-3e9a-470f-bf98-65b6f0f07c41) is not present in table "users".
+2026-10-22 21:40:56.789 UTC [27354] STATEMENT:  INSERT INTO audit_events (id, owner_id, action, entity, entity_id, detail, at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::JSON, $7::BIGINT)
+2026-10-22 21:40:57.650 UTC [27347] LOG:  received fast shutdown request
+2026-10-22 21:40:57.652 UTC [27347] LOG:  aborting any active transactions
+2026-10-22 21:40:57.652 UTC [27354] FATAL:  terminating connection due to administrator command
+2026-10-22 21:40:57.654 UTC [27347] LOG:  background worker "logical replication launcher" (PID 27353) exited with exit code 1
+2026-10-22 21:40:57.654 UTC [27348] LOG:  shutting down
+2026-10-22 21:40:57.655 UTC [27348] LOG:  checkpoint starting: shutdown immediate
+2026-10-22 21:40:57.662 UTC [27348] LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.002 s, total=0.008 s; sync files=6, longest=0.001 s, average=0.001 s; distance=4 kB, estimate=4 kB; lsn=0/15CCDE0, redo lsn=0/15CCDE0
+2026-10-22 21:40:57.666 UTC [27347] LOG:  database system is shut down
+2026-10-22 21:41:37.419 UTC [27499] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-22 21:41:37.420 UTC [27499] LOG:  listening on Unix socket "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg/.s.PGSQL.5432"
+2026-10-22 21:41:37.424 UTC [27502] LOG:  database system was shut down at 2026-10-22 21:40:57 UTC
+2026-10-22 21:41:37.428 UTC [27499] LOG:  database system is ready to accept connections
+2026-10-22 21:41:38.188 UTC [27506] ERROR:  insert or update on table "audit_events" violates foreign key constraint "audit_events_owner_id_fkey"
+2026-10-22 21:41:38.188 UTC [27506] DETAIL:  Key (owner_id)=(d6b81e1a-1c71-4f62-90cc-2b23566723d1) is not present in table "users".
+2026-10-22 21:41:38.188 UTC [27506] STATEMENT:  INSERT INTO audit_events (id, owner_id, action, entity, entity_id, detail, at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::JSON, $7::BIGINT)
+2026-10-22 21:41:39.077 UTC [27499] LOG:  received fast shutdown request
+2026-10-22 21:41:39.081 UTC [27499] LOG:  aborting any active transactions
+2026-10-22 21:41:39.081 UTC [27506] FATAL:  terminating connection due to administrator command
+2026-10-22 21:41:39.082 UTC [27499] LOG:  background worker "logical replication launcher" (PID 27505) exited with exit code 1
+2026-10-22 21:41:39.083 UTC [27500] LOG:  shutting down
+2026-10-22 21:41:39.085 UTC [27500] LOG:  checkpoint starting: shutdown immediate
+2026-10-22 21:41:39.118 UTC [27500] LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.002 s, total=0.035 s; sync files=6, longest=0.002 s, average=0.001 s; distance=4 kB, estimate=4 kB; lsn=0/15CDF00, redo lsn=0/15CDF00
+2026-10-22 21:41:39.122 UTC [27499] LOG:  database system is shut down
+2026-10-22 21:41:39.908 UTC [27545] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-22 21:41:39.909 UTC [27545] LOG:  listening on Unix socket "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg/.s.PGSQL.5432"
+2026-10-22 21:41:39.914 UTC [27548] LOG:  database system was shut down at 2026-10-22 21:41:39 UTC
+2026-10-22 21:41:39.917 UTC [27545] LOG:  database system is ready to accept connections
+2026-10-22 21:41:41.041 UTC [27552] ERROR:  insert or update on table "audit_events" violates foreign key constraint "audit_events_owner_id_fkey"
+2026-10-22 21:41:41.041 UTC [27552] DETAIL:  Key (owner_id)=(2a07e3be-bf02-49fd-b261-d5f9515910c0) is not present in table "users".
+2026-10-22 21:41:41.041 UTC [27552] STATEMENT:  INSERT INTO audit_events (id, owner_id, action, entity, entity_id, detail, at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::JSON, $7::BIGINT)
+2026-10-22 21:41:41.953 UTC [27552] ERROR:  insert or update on table "audit_events" violates foreign key constraint "audit_events_owner_id_fkey"
+2026-10-22 21:41:41.953 UTC [27552] DETAIL:  Key (owner_id)=(a123bc95-5440-498f-af29-43414f6ffd39) is not present in table "users".
+2026-10-22 21:41:41.953 UTC [27552] STATEMENT:  INSERT INTO audit_events (id, owner_id, action, entity, entity_id, detail, at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::JSON, $7::BIGINT)
+2026-10-22 21:41:43.010 UTC [27552] ERROR:  insert or update on table "audit_events" violates foreign key constraint "audit_events_owner_id_fkey"
+2026-10-22 21:41:43.010 UTC [27552] DETAIL:  Key (owner_id)=(94d6ebfc-f103-4251-828a-5d5691a605c4) is not present in table "users".
+2026-10-22 21:41:43.010 UTC [27552] STATEMENT:  INSERT INTO audit_events (id, owner_id, action, entity, entity_id, detail, at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::JSON, $7::BIGINT)
+2026-10-22 21:41:43.874 UTC [27552] ERROR:  insert or update on table "audit_events" violates foreign key constraint "audit_events_owner_id_fkey"
+2026-10-22 21:41:43.874 UTC [27552] DETAIL:  Key (owner_id)=(c85872df-93a1-4737-9c7e-cc41741e9a42) is not present in table "users".
+2026-10-22 21:41:43.874 UTC [27552] STATEMENT:  INSERT INTO audit_events (id, owner_id, action, entity, entity_id, detail, at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::JSON, $7::BIGINT)
+2026-10-22 21:41:44.684 UTC [27552] ERROR:  insert or update on table "audit_events" violates foreign key constraint "audit_events_owner_id_fkey"
+2026-10-22 21:41:44.684 UTC [27552] DETAIL:  Key (owner_id)=(a66dce0e-1eab-4476-8155-23c9a7cf0303) is not present in table "users".
+2026-10-22 21:41:44.684 UTC [27552] STATEMENT:  INSERT INTO audit_events (id, owner_id, action, entity, entity_id, detail, at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::JSON, $7::BIGINT)
+2026-10-22 21:41:45.499 UTC [27552] ERROR:  insert or update on table "audit_events" violates foreign key constraint "audit_events_owner_id_fkey"
+2026-10-22 21:41:45.499 UTC [27552] DETAIL:  Key (owner_id)=(d71d8bb4-1b6b-4c92-a582-ff77e951ce80) is not present in table "users".
+2026-10-22 21:41:45.499 UTC [27552] STATEMENT:  INSERT INTO audit_events (id, owner_id, action, entity, entity_id, detail, at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::JSON, $7::BIGINT)
+2026-10-22 21:41:46.491 UTC [27552] ERROR:  insert or update on table "audit_events" violates foreign key constraint "audit_events_owner_id_fkey"
+2026-10-22 21:41:46.491 UTC [27552] DETAIL:  Key (owner_id)=(d17513ed-79ca-4c73-b8fe-47bd4b5a1caa) is not present in table "users".
+2026-10-22 21:41:46.491 UTC [27552] STATEMENT:  INSERT INTO audit_events (id, owner_id, action, entity, entity_id, detail, at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::JSON, $7::BIGINT)
+2026-10-22 21:41:47.337 UTC [27552] ERROR:  insert or update on table "audit_events" violates foreign key constraint "audit_events_owner_id_fkey"
+2026-10-22 21:41:47.337 UTC [27552] DETAIL:  Key (owner_id)=(1212853d-d6f2-4bc8-beeb-a8e052297d9d) is not present in table "users".
+2026-10-22 21:41:47.337 UTC [27552] STATEMENT:  INSERT INTO audit_events (id, owner_id, action, entity, entity_id, detail, at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::JSON, $7::BIGINT)
+2026-10-22 21:41:48.159 UTC [27552] ERROR:  insert or update on table "audit_events" violates foreign key constraint "audit_events_owner_id_fkey"
+2026-10-22 21:41:48.159 UTC [27552] DETAIL:  Key (owner_id)=(1689da23-77c3-43a1-b97b-485ef1eb943b) is not present in table "users".
+2026-10-22 21:41:48.159 UTC [27552] STATEMENT:  INSERT INTO audit_events (id, owner_id, action, entity, entity_id, detail, at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::JSON, $7::BIGINT)
+2026-10-22 21:41:49.065 UTC [27545] LOG:  received fast shutdown request
+2026-10-22 21:41:49.067 UTC [27545] LOG:  aborting any active transactions
+2026-10-22 21:41:49.067 UTC [27552] FATAL:  terminating connection due to administrator command
+2026-10-22 21:41:49.069 UTC [27545] LOG:  background worker "logical replication launcher" (PID 27551) exited with exit code 1
+2026-10-22 21:41:49.069 UTC [27546] LOG:  shutting down
+2026-10-22 21:41:49.070 UTC [27546] LOG:  checkpoint starting: shutdown immediate
+2026-10-22 21:41:49.077 UTC [27546] LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.002 s, total=0.008 s; sync files=6, longest=0.001 s, average=0.001 s; distance=8 kB, estimate=8 kB; lsn=0/15D00E8, redo lsn=0/15D00E8
+2026-10-22 21:41:49.081 UTC [27545] LOG:  database system is shut down
+2026-10-22 21:43:49.717 UTC [28057] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-22 21:43:49.718 UTC [28057] LOG:  listening on Unix socket "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg/.s.PGSQL.5432"
+2026-10-22 21:43:49.723 UTC [28060] LOG:  database system was shut down at 2026-10-22 21:41:49 UTC
+2026-10-22 21:43:49.726 UTC [28057] LOG:  database system is ready to accept connections
+2026-10-22 21:43:50.004 UTC [28064] ERROR:  insert or update on table "audit_events" violates foreign key constraint "audit_events_owner_id_fkey"
+2026-10-22 21:43:50.004 UTC [28064] DETAIL:  Key (owner_id)=(9d0dd7eb-22cd-4c44-8071-de9e6b31c3b3) is not present in table "users".
+2026-10-22 21:43:50.004 UTC [28064] STATEMENT:  INSERT INTO audit_events (id, owner_id, action, entity, entity_id, detail, at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::JSON, $7::BIGINT)
+2026-10-22 21:43:50.008 UTC [28057] LOG:  received fast shutdown request
+2026-10-22 21:43:50.010 UTC [28057] LOG:  aborting any active transactions
+2026-10-22 21:43:50.010 UTC [28064] FATAL:  terminating connection due to administrator command
+2026-10-22 21:43:50.011 UTC [28057] LOG:  background worker "logical replication launcher" (PID 28063) exited with exit code 1
+2026-10-22 21:43:50.011 UTC [28058] LOG:  shutting down
+2026-10-22 21:43:50.012 UTC [28058] LOG:  checkpoint starting: shutdown immediate
+2026-10-22 21:43:50.021 UTC [28058] LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.002 s, total=0.010 s; sync files=6, longest=0.001 s, average=0.001 s; distance=7 kB, estimate=7 kB; lsn=0/15D1D98, redo lsn=0/15D1D98
+2026-10-22 21:43:50.026 UTC [28057] LOG:  database system is shut down
+2026-10-22 21:45:45.862 UTC [28546] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-22 21:45:45.863 UTC [28546] LOG:  listening on Unix socket "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg/.s.PGSQL.5432"
+2026-10-22 21:45:45.867 UTC [28549] LOG:  database system was shut down at 2026-10-22 21:43:50 UTC
+2026-10-22 21:45:45.870 UTC [28546] LOG:  database system is ready to accept connections
+2026-10-22 21:45:48.868 UTC [28546] LOG:  received fast shutdown request
+2026-10-22 21:45:49.007 UTC [28546] LOG:  aborting any active transactions
+2026-10-22 21:45:49.008 UTC [28553] FATAL:  terminating connection due to administrator command
+2026-10-22 21:45:49.009 UTC [28546] LOG:  background worker "logical replication launcher" (PID 28552) exited with exit code 1
+2026-10-22 21:45:49.010 UTC [28547] LOG:  shutting down
+2026-10-22 21:45:49.023 UTC [28547] LOG:  checkpoint starting: shutdown immediate
+2026-10-22 21:45:49.161 UTC [28547] LOG:  checkpoint complete: wrote 115 buffers (0.7%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.021 s, sync=0.039 s, total=0.151 s; sync files=76, longest=0.026 s, average=0.001 s; distance=341 kB, estimate=341 kB; lsn=0/1627568, redo lsn=0/1627568
+2026-10-22 21:45:49.167 UTC [28546] LOG:  database system is shut down
+2026-10-23 09:38:02.924 UTC [2163] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-23 09:38:02.936 UTC [2163] LOG:  listening on Unix socket "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg/.s.PGSQL.5432"
+2026-10-23 09:38:02.968 UTC [2167] LOG:  database system was shut down at 2026-10-22 21:45:49 UTC
+2026-10-23 09:38:02.979 UTC [2163] LOG:  database system is ready to accept connections
+2026-10-23 09:38:09.850 UTC [2163] LOG:  received fast shutdown request
+2026-10-23 09:38:09.852 UTC [2163] LOG:  aborting any active transactions
+2026-10-23 09:38:09.852 UTC [2171] FATAL:  terminating connection due to administrator command
+2026-10-23 09:38:09.854 UTC [2163] LOG:  background worker "logical replication launcher" (PID 2170) exited with exit code 1
+2026-10-23 09:38:09.856 UTC [2165] LOG:  shutting down
+2026-10-23 09:38:09.858 UTC [2165] LOG:  checkpoint starting: shutdown immediate
+2026-10-23 09:38:09.925 UTC [2165] LOG:  checkpoint complete: wrote 513 buffers (3.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.010 s, sync=0.053 s, total=0.070 s; sync files=87, longest=0.006 s, average=0.001 s; distance=4365 kB, estimate=4365 kB; lsn=0/1A6AAE8, redo lsn=0/1A6AAE8
+2026-10-23 09:38:09.933 UTC [2163] LOG:  database system is shut down
+2026-10-23 09:38:17.285 UTC [2812] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-23 09:38:17.301 UTC [2812] LOG:  listening on Unix socket "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg/.s.PGSQL.5432"
+2026-10-23 09:38:17.314 UTC [2815] LOG:  database system was shut down at 2026-10-23 09:38:09 UTC
+2026-10-23 09:38:17.319 UTC [2812] LOG:  database system is ready to accept connections
+2026-10-23 09:38:18.187 UTC [2812] LOG:  received fast shutdown request
+2026-10-23 09:38:18.761 UTC [2812] LOG:  aborting any active transactions
+2026-10-23 09:38:18.761 UTC [2827] FATAL:  terminating connection due to administrator command
+2026-10-23 09:38:18.762 UTC [2812] LOG:  background worker "logical replication launcher" (PID 2818) exited with exit code 1
+2026-10-23 09:38:18.763 UTC [2813] LOG:  shutting down
+2026-10-23 09:38:18.869 UTC [2813] LOG:  checkpoint starting: shutdown immediate
+2026-10-23 09:38:18.904 UTC [2813] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.009 s, sync=0.001 s, total=0.141 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/1A6AB60, redo lsn=0/1A6AB60
+2026-10-23 09:38:18.909 UTC [2812] LOG:  database system is shut down
+2026-10-23 09:39:51.104 UTC [3306] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-23 09:39:51.106 UTC [3306] LOG:  listening on Unix socket "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg/.s.PGSQL.5432"
+2026-10-23 09:39:51.111 UTC [3309] LOG:  database system was shut down at 2026-10-23 09:38:18 UTC
+2026-10-23 09:39:51.116 UTC [3306] LOG:  database system is ready to accept connections
+2026-10-23 09:39:53.120 UTC [3306] LOG:  received fast shutdown request
+2026-10-23 09:39:53.122 UTC [3306] LOG:  aborting any active transactions
+2026-10-23 09:39:53.122 UTC [3313] FATAL:  terminating connection due to administrator command
+2026-10-23 09:39:53.124 UTC [3306] LOG:  background worker "logical replication launcher" (PID 3312) exited with exit code 1
+2026-10-23 09:39:53.124 UTC [3307] LOG:  shutting down
+2026-10-23 09:39:53.126 UTC [3307] LOG:  checkpoint starting: shutdown immediate
+2026-10-23 09:39:53.145 UTC [3307] LOG:  checkpoint complete: wrote 217 buffers (1.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.007 s, sync=0.009 s, total=0.021 s; sync files=67, longest=0.005 s, average=0.001 s; distance=1052 kB, estimate=1052 kB; lsn=0/1B71EF8, redo lsn=0/1B71EF8
+2026-10-23 09:39:53.151 UTC [3306] LOG:  database system is shut down
+2026-10-23 09:41:04.578 UTC [3808] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-23 09:41:04.579 UTC [3808] LOG:  listening on Unix socket "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg/.s.PGSQL.5432"
+2026-10-23 09:41:04.584 UTC [3811] LOG:  database system was shut down at 2026-10-23 09:39:53 UTC
+2026-10-23 09:41:04.587 UTC [3808] LOG:  database system is ready to accept connections
+2026-10-23 09:41:10.787 UTC [3808] LOG:  received fast shutdown request
+2026-10-23 09:41:10.789 UTC [3808] LOG:  aborting any active transactions
+2026-10-23 09:41:10.789 UTC [3815] FATAL:  terminating connection due to administrator command
+2026-10-23 09:41:10.790 UTC [3808] LOG:  background worker "logical replication launcher" (PID 3814) exited with exit code 1
+2026-10-23 09:41:10.792 UTC [3809] LOG:  shutting down
+2026-10-23 09:41:10.794 UTC [3809] LOG:  checkpoint starting: shutdown immediate
+2026-10-23 09:41:10.825 UTC [3809] LOG:  checkpoint complete: wrote 601 buffers (3.7%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.013 s, sync=0.013 s, total=0.033 s; sync files=98, longest=0.006 s, average=0.001 s; distance=4993 kB, estimate=4993 kB; lsn=0/20523A8, redo lsn=0/20523A8
+2026-10-23 09:41:10.833 UTC [3808] LOG:  database system is shut down
+2026-10-23 09:41:20.365 UTC [4513] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-23 09:41:20.367 UTC [4513] LOG:  listening on Unix socket "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg/.s.PGSQL.5432"
+2026-10-23 09:41:20.371 UTC [4516] LOG:  database system was shut down at 2026-10-23 09:41:10 UTC
+2026-10-23 09:41:20.375 UTC [4513] LOG:  database system is ready to accept connections
+2026-10-23 09:41:21.929 UTC [4513] LOG:  received fast shutdown request
+2026-10-23 09:41:21.949 UTC [4513] LOG:  aborting any active transactions
+2026-10-23 09:41:21.949 UTC [4520] FATAL:  terminating connection due to administrator command
+2026-10-23 09:41:21.952 UTC [4513] LOG:  background worker "logical replication launcher" (PID 4519) exited with exit code 1
+2026-10-23 09:41:21.952 UTC [4514] LOG:  shutting down
+2026-10-23 09:41:21.967 UTC [4514] LOG:  checkpoint starting: shutdown immediate
+2026-10-23 09:41:22.067 UTC [4514] LOG:  checkpoint complete: wrote 262 buffers (1.6%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.011 s, sync=0.007 s, total=0.116 s; sync files=61, longest=0.004 s, average=0.001 s; distance=1380 kB, estimate=1380 kB; lsn=0/21AB538, redo lsn=0/21AB538
+2026-10-23 09:41:22.076 UTC [4513] LOG:  database system is shut down
+2026-10-23 09:42:29.999 UTC [4714] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-23 09:42:30.032 UTC [4714] LOG:  listening on Unix socket "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg/.s.PGSQL.5432"
+2026-10-23 09:42:30.073 UTC [4717] LOG:  database system was shut down at 2026-10-23 09:41:22 UTC
+2026-10-23 09:42:30.077 UTC [4714] LOG:  database system is ready to accept connections
+2026-10-23 09:42:31.452 UTC [4714] LOG:  received fast shutdown request
+2026-10-23 09:42:31.454 UTC [4714] LOG:  aborting any active transactions
+2026-10-23 09:42:31.454 UTC [4721] FATAL:  terminating connection due to administrator command
+2026-10-23 09:42:31.455 UTC [4714] LOG:  background worker "logical replication launcher" (PID 4720) exited with exit code 1
+2026-10-23 09:42:31.456 UTC [4715] LOG:  shutting down
+2026-10-23 09:42:31.458 UTC [4715] LOG:  checkpoint starting: shutdown immediate
+2026-10-23 09:42:31.473 UTC [4715] LOG:  checkpoint complete: wrote 198 buffers (1.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.006 s, sync=0.006 s, total=0.017 s; sync files=62, longest=0.003 s, average=0.001 s; distance=1066 kB, estimate=1066 kB; lsn=0/22B6070, redo lsn=0/22B6070
+2026-10-23 09:42:31.480 UTC [4714] LOG:  database system is shut down
+2026-10-23 09:44:01.030 UTC [5032] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-23 09:44:01.031 UTC [5032] LOG:  listening on Unix socket "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg/.s.PGSQL.5432"
+2026-10-23 09:44:01.037 UTC [5035] LOG:  database system was shut down at 2026-10-23 09:42:31 UTC
+2026-10-23 09:44:01.040 UTC [5032] LOG:  database system is ready to accept connections
+2026-10-23 09:44:01.605 UTC [5032] LOG:  received fast shutdown request
+2026-10-23 09:44:01.607 UTC [5032] LOG:  aborting any active transactions
+2026-10-23 09:44:01.607 UTC [5040] FATAL:  terminating connection due to administrator command
+2026-10-23 09:44:01.608 UTC [5032] LOG:  background worker "logical replication launcher" (PID 5038) exited with exit code 1
+2026-10-23 09:44:01.609 UTC [5033] LOG:  shutting down
+2026-10-23 09:44:01.610 UTC [5033] LOG:  checkpoint starting: shutdown immediate
+2026-10-23 09:44:01.625 UTC [5033] LOG:  checkpoint complete: wrote 194 buffers (1.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.007 s, total=0.017 s; sync files=71, longest=0.003 s, average=0.001 s; distance=1010 kB, estimate=1010 kB; lsn=0/23B2898, redo lsn=0/23B2898
+2026-10-23 09:44:01.630 UTC [5032] LOG:  database system is shut down
+2026-10-23 09:47:29.395 UTC [5672] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-23 09:47:29.397 UTC [5672] LOG:  listening on Unix socket "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg/.s.PGSQL.5432"
+2026-10-23 09:47:29.403 UTC [5675] LOG:  database system was shut down at 2026-10-23 09:44:01 UTC
+2026-10-23 09:47:29.407 UTC [5672] LOG:  database system is ready to accept connections
+2026-10-23 09:47:35.763 UTC [5672] LOG:  received fast shutdown request
+2026-10-23 09:47:35.764 UTC [5672] LOG:  aborting any active transactions
+2026-10-23 09:47:35.765 UTC [5679] FATAL:  terminating connection due to administrator command
+2026-10-23 09:47:35.766 UTC [5672] LOG:  background worker "logical replication launcher" (PID 5678) exited with exit code 1
+2026-10-23 09:47:35.768 UTC [5673] LOG:  shutting down
+2026-10-23 09:47:35.769 UTC [5673] LOG:  checkpoint starting: shutdown immediate
+2026-10-23 09:47:35.794 UTC [5673] LOG:  checkpoint complete: wrote 652 buffers (4.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.013 s, sync=0.010 s, total=0.027 s; sync files=96, longest=0.006 s, average=0.001 s; distance=5379 kB, estimate=5379 kB; lsn=0/28F3688, redo lsn=0/28F3688
+2026-10-23 09:47:35.800 UTC [5672] LOG:  database system is shut down
+2026-10-23 09:47:44.967 UTC [6377] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-23 09:47:44.968 UTC [6377] LOG:  listening on Unix socket "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg/.s.PGSQL.5432"
+2026-10-23 09:47:44.972 UTC [6380] LOG:  database system was shut down at 2026-10-23 09:47:35 UTC
+2026-10-23 09:47:44.975 UTC [6377] LOG:  database system is ready to accept connections
+2026-10-23 09:47:46.143 UTC [6377] LOG:  received fast shutdown request
+2026-10-23 09:47:46.145 UTC [6377] LOG:  aborting any active transactions
+2026-10-23 09:47:46.145 UTC [6384] FATAL:  terminating connection due to administrator command
+2026-10-23 09:47:46.148 UTC [6377] LOG:  background worker "logical replication launcher" (PID 6383) exited with exit code 1
+2026-10-23 09:47:46.148 UTC [6378] LOG:  shutting down
+2026-10-23 09:47:46.149 UTC [6378] LOG:  checkpoint starting: shutdown immediate
+2026-10-23 09:47:46.164 UTC [6378] LOG:  checkpoint complete: wrote 226 buffers (1.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.007 s, sync=0.005 s, total=0.017 s; sync files=72, longest=0.003 s, average=0.001 s; distance=1303 kB, estimate=1303 kB; lsn=0/2A395B0, redo lsn=0/2A395B0
+2026-10-23 09:47:46.170 UTC [6377] LOG:  database system is shut down
+2026-10-23 09:48:53.065 UTC [6678] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-23 09:48:53.066 UTC [6678] LOG:  listening on Unix socket "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg/.s.PGSQL.5432"
+2026-10-23 09:48:53.071 UTC [6681] LOG:  database system was shut down at 2026-10-23 09:47:46 UTC
+2026-10-23 09:48:53.075 UTC [6678] LOG:  database system is ready to accept connections
+2026-10-23 09:48:59.397 UTC [6678] LOG:  received fast shutdown request
+2026-10-23 09:48:59.400 UTC [6678] LOG:  aborting any active transactions
+2026-10-23 09:48:59.400 UTC [6685] FATAL:  terminating connection due to administrator command
+2026-10-23 09:48:59.403 UTC [6678] LOG:  background worker "logical replication launcher" (PID 6684) exited with exit code 1
+2026-10-23 09:48:59.403 UTC [6679] LOG:  shutting down
+2026-10-23 09:48:59.405 UTC [6679] LOG:  checkpoint starting: shutdown immediate
+2026-10-23 09:48:59.436 UTC [6679] LOG:  checkpoint complete: wrote 730 buffers (4.5%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.013 s, sync=0.014 s, total=0.033 s; sync files=96, longest=0.009 s, average=0.001 s; distance=5887 kB, estimate=5887 kB; lsn=0/2FF9280, redo lsn=0/2FF9280
+2026-10-23 09:48:59.443 UTC [6678] LOG:  database system is shut down
+2026-10-23 09:49:43.851 UTC [7441] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-23 09:49:43.852 UTC [7441] LOG:  listening on Unix socket "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg/.s.PGSQL.5432"
+2026-10-23 09:49:43.855 UTC [7444] LOG:  database system was shut down at 2026-10-23 09:48:59 UTC
+2026-10-23 09:49:43.858 UTC [7441] LOG:  database system is ready to accept connections
+2026-10-23 09:49:49.901 UTC [7441] LOG:  received fast shutdown request
+2026-10-23 09:49:49.902 UTC [7441] LOG:  aborting any active transactions
+2026-10-23 09:49:49.903 UTC [7448] FATAL:  terminating connection due to administrator command
+2026-10-23 09:49:49.905 UTC [7441] LOG:  background worker "logical replication launcher" (PID 7447) exited with exit code 1
+2026-10-23 09:49:49.906 UTC [7442] LOG:  shutting down
+2026-10-23 09:49:49.907 UTC [7442] LOG:  checkpoint starting: shutdown immediate
+2026-10-23 09:49:49.935 UTC [7442] LOG:  checkpoint complete: wrote 808 buffers (4.9%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.012 s, sync=0.011 s, total=0.029 s; sync files=95, longest=0.008 s, average=0.001 s; distance=6278 kB, estimate=6278 kB; lsn=0/361AC08, redo lsn=0/361AC08
+2026-10-23 09:49:49.943 UTC [7441] LOG:  database system is shut down
+2026-10-23 09:58:54.588 UTC [9609] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-23 09:58:54.589 UTC [9609] LOG:  listening on Unix socket "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg/.s.PGSQL.5432"
+2026-10-23 09:58:54.593 UTC [9612] LOG:  database system was shut down at 2026-10-23 09:49:49 UTC
+2026-10-23 09:58:54.597 UTC [9609] LOG:  database system is ready to accept connections
+2026-10-23 09:58:55.588 UTC [9616] ERROR:  insert or update on table "tutor_messages" violates foreign key constraint "tutor_messages_session_id_fkey"
+2026-10-23 09:58:55.588 UTC [9616] DETAIL:  Key (session_id)=(8236ee90-bfc6-48ad-95ab-c2f2eaba06d9) is not present in table "tutor_sessions".
+2026-10-23 09:58:55.588 UTC [9616] STATEMENT:  INSERT INTO tutor_messages (id, owner_id, session_id, role, content, citations, includes_external_knowledge, created_at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::JSON, $7, $8::BIGINT)
+2026-10-23 09:59:01.254 UTC [9609] LOG:  received fast shutdown request
+2026-10-23 09:59:01.256 UTC [9609] LOG:  aborting any active transactions
+2026-10-23 09:59:01.256 UTC [9616] FATAL:  terminating connection due to administrator command
+2026-10-23 09:59:01.258 UTC [9609] LOG:  background worker "logical replication launcher" (PID 9615) exited with exit code 1
+2026-10-23 09:59:01.259 UTC [9610] LOG:  shutting down
+2026-10-23 09:59:01.260 UTC [9610] LOG:  checkpoint starting: shutdown immediate
+2026-10-23 09:59:01.287 UTC [9610] LOG:  checkpoint complete: wrote 917 buffers (5.6%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.013 s, sync=0.012 s, total=0.029 s; sync files=108, longest=0.007 s, average=0.001 s; distance=6807 kB, estimate=6807 kB; lsn=0/3CC0B10, redo lsn=0/3CC0B10
+2026-10-23 09:59:01.294 UTC [9609] LOG:  database system is shut down
+2026-10-23 09:59:21.082 UTC [10285] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-23 09:59:21.145 UTC [10285] LOG:  listening on Unix socket "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg/.s.PGSQL.5432"
+2026-10-23 09:59:21.282 UTC [10289] LOG:  database system was shut down at 2026-10-23 09:59:01 UTC
+2026-10-23 09:59:21.432 UTC [10285] LOG:  database system is ready to accept connections
+2026-10-23 09:59:22.583 UTC [10293] ERROR:  insert or update on table "tutor_messages" violates foreign key constraint "tutor_messages_session_id_fkey"
+2026-10-23 09:59:22.583 UTC [10293] DETAIL:  Key (session_id)=(f4d1f09c-f25f-4655-b976-790f640f25c8) is not present in table "tutor_sessions".
+2026-10-23 09:59:22.583 UTC [10293] STATEMENT:  INSERT INTO tutor_messages (id, owner_id, session_id, role, content, citations, includes_external_knowledge, created_at) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::JSON, $7, $8::BIGINT)
+2026-10-23 09:59:23.882 UTC [10285] LOG:  received fast shutdown request
+2026-10-23 09:59:23.993 UTC [10285] LOG:  aborting any active transactions
+2026-10-23 09:59:23.994 UTC [10293] FATAL:  terminating connection due to administrator command
+2026-10-23 09:59:23.995 UTC [10285] LOG:  background worker "logical replication launcher" (PID 10292) exited with exit code 1
+2026-10-23 09:59:23.996 UTC [10287] LOG:  shutting down
+2026-10-23 09:59:24.202 UTC [10287] LOG:  checkpoint starting: shutdown immediate
+2026-10-23 09:59:26.202 UTC [10287] LOG:  checkpoint complete: wrote 293 buffers (1.8%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.081 s, sync=0.786 s, total=2.207 s; sync files=70, longest=0.424 s, average=0.012 s; distance=1717 kB, estimate=1717 kB; lsn=0/3E6E160, redo lsn=0/3E6E160
+2026-10-23 09:59:26.209 UTC [10285] LOG:  database system is shut down
+2026-10-23 10:02:23.766 UTC [10931] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-23 10:02:23.767 UTC [10931] LOG:  listening on Unix socket "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg/.s.PGSQL.5432"
+2026-10-23 10:02:23.771 UTC [10934] LOG:  database system was shut down at 2026-10-23 09:59:26 UTC
+2026-10-23 10:02:23.775 UTC [10931] LOG:  database system is ready to accept connections
+2026-10-23 10:02:34.872 UTC [10931] LOG:  received fast shutdown request
+2026-10-23 10:02:34.875 UTC [10931] LOG:  aborting any active transactions
+2026-10-23 10:02:34.875 UTC [10938] FATAL:  terminating connection due to administrator command
+2026-10-23 10:02:34.877 UTC [10931] LOG:  background worker "logical replication launcher" (PID 10937) exited with exit code 1
+2026-10-23 10:02:34.878 UTC [10932] LOG:  shutting down
+2026-10-23 10:02:34.879 UTC [10932] LOG:  checkpoint starting: shutdown immediate
+2026-10-23 10:02:34.913 UTC [10932] LOG:  checkpoint complete: wrote 1433 buffers (8.7%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.015 s, sync=0.015 s, total=0.036 s; sync files=127, longest=0.010 s, average=0.001 s; distance=11989 kB, estimate=11989 kB; lsn=0/4A23940, redo lsn=0/4A23940
+2026-10-23 10:02:34.922 UTC [10931] LOG:  database system is shut down
+2026-10-23 10:02:49.510 UTC [12232] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-23 10:02:49.521 UTC [12232] LOG:  listening on Unix socket "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg/.s.PGSQL.5432"
+2026-10-23 10:02:49.562 UTC [12235] LOG:  database system was shut down at 2026-10-23 10:02:34 UTC
+2026-10-23 10:02:49.575 UTC [12232] LOG:  database system is ready to accept connections
+2026-10-23 10:03:06.407 UTC [12232] LOG:  received fast shutdown request
+2026-10-23 10:03:06.410 UTC [12232] LOG:  aborting any active transactions
+2026-10-23 10:03:06.410 UTC [12239] FATAL:  terminating connection due to administrator command
+2026-10-23 10:03:06.413 UTC [12232] LOG:  background worker "logical replication launcher" (PID 12238) exited with exit code 1
+2026-10-23 10:03:06.415 UTC [12233] LOG:  shutting down
+2026-10-23 10:03:06.416 UTC [12233] LOG:  checkpoint starting: shutdown immediate
+2026-10-23 10:03:06.473 UTC [12233] LOG:  checkpoint complete: wrote 1574 buffers (9.6%); 0 WAL file(s) added, 0 removed, 1 recycled; write=0.030 s, sync=0.021 s, total=0.058 s; sync files=127, longest=0.014 s, average=0.001 s; distance=12704 kB, estimate=12704 kB; lsn=0/568BD18, redo lsn=0/568BD18
+2026-10-23 10:03:06.482 UTC [12232] LOG:  database system is shut down
+2026-10-23 15:29:48.120 UTC [6027] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-23 15:29:48.353 UTC [6027] LOG:  listening on Unix socket "/workspace/chats/0fe654c743a5730d62dcab0a/server/data/embedded-pg/.s.PGSQL.5432"
+2026-10-23 15:29:49.574 UTC [6032] LOG:  database system was shut down at 2026-10-23 10:03:06 UTC
+2026-10-23 15:29:49.675 UTC [6027] LOG:  database system is ready to accept connections
+2026-10-23 15:34:49.683 UTC [6030] LOG:  checkpoint starting: time
+2026-10-23 15:36:09.054 UTC [6030] LOG:  checkpoint complete: wrote 789 buffers (4.8%); 0 WAL file(s) added, 0 removed, 0 recycled; write=78.607 s, sync=0.757 s, total=79.371 s; sync files=114, longest=0.663 s, average=0.007 s; distance=4142 kB, estimate=4142 kB; lsn=0/5A9B488, redo lsn=0/5A97550
+2026-10-23 15:44:49.206 UTC [6030] LOG:  checkpoint starting: time
+2026-10-23 15:45:17.360 UTC [6030] LOG:  checkpoint complete: wrote 279 buffers (1.7%); 0 WAL file(s) added, 0 removed, 0 recycled; write=27.916 s, sync=0.134 s, total=28.155 s; sync files=80, longest=0.120 s, average=0.002 s; distance=330 kB, estimate=3760 kB; lsn=0/5AFD228, redo lsn=0/5AE9F10
+2026-10-23 15:54:49.504 UTC [6030] LOG:  checkpoint starting: time
+2026-10-23 15:57:10.988 UTC [6030] LOG:  checkpoint complete: wrote 1413 buffers (8.6%); 0 WAL file(s) added, 0 removed, 1 recycled; write=141.465 s, sync=0.010 s, total=141.485 s; sync files=178, longest=0.003 s, average=0.001 s; distance=9403 kB, estimate=9403 kB; lsn=0/6418DD0, redo lsn=0/6418D98

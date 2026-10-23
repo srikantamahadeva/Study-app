@@ -1,10 +1,10 @@
-import { Flame } from 'lucide-react'
-import { Link, NavLink, Outlet } from 'react-router'
+import { BarChart3, BookOpen, FlaskConical, LayoutGrid, Library, LogOut, MessageSquare, StickyNote, Target } from 'lucide-react'
+import { Link, NavLink, Outlet, useNavigate } from 'react-router'
 
 import { BRAND } from '../../shared/types'
-import { useMe } from '../lib/api'
+import { useLogout, useMe } from '../lib/api'
 import { cx } from '../lib/cx'
-import { Avatar } from './ui'
+import { Avatar, Button } from './ui'
 
 export function Logo({ className }: { className?: string }) {
   return (
@@ -18,73 +18,78 @@ export function Logo({ className }: { className?: string }) {
   )
 }
 
+const NAV = [
+  { to: '/', label: 'Learn', icon: BookOpen, end: true },
+  { to: '/notes', label: 'Notes', icon: StickyNote },
+  { to: '/flashcards', label: 'Cards', icon: Library },
+  { to: '/quiz', label: 'Quiz', icon: Target },
+  { to: '/labs', label: 'Labs', icon: FlaskConical },
+  { to: '/projects', label: 'Projects', icon: LayoutGrid },
+  { to: '/resources', label: 'Library', icon: Library },
+  { to: '/reports', label: 'Reports', icon: BarChart3 },
+  { to: '/tutor', label: 'Tutor', icon: MessageSquare },
+]
+
 export function Shell() {
   const { data: me } = useMe()
-  const link = 'inline-flex h-9 items-center rounded-control px-3.5 text-[14px] font-medium transition-colors'
+  const logout = useLogout()
+  const navigate = useNavigate()
+  const link = 'inline-flex h-9 items-center gap-1.5 rounded-control px-3 text-[13.5px] font-medium transition-colors'
+
   return (
     <div className="min-h-screen">
       <header className="sticky top-0 z-30 border-b border-line bg-bg/85 backdrop-blur-xl">
-        <div className="mx-auto flex h-16 max-w-[1120px] items-center justify-between px-5 sm:px-8">
-          <div className="flex items-center gap-8">
+        <div className="mx-auto flex h-16 max-w-[1120px] items-center justify-between gap-4 px-5 sm:px-8">
+          <div className="flex items-center gap-6">
             <Logo />
-            <nav className="hidden items-center gap-1 sm:flex">
-              <NavLink to="/" end className={({ isActive }) => cx(link, isActive ? 'bg-surface text-fg shadow-card' : 'text-muted hover:text-fg')}>
-                Library
-              </NavLink>
-              <NavLink to="/stats" className={({ isActive }) => cx(link, isActive ? 'bg-surface text-fg shadow-card' : 'text-muted hover:text-fg')}>
-                Progress
-              </NavLink>
+            <nav className="hidden items-center gap-1 lg:flex">
+              {NAV.map((item) => (
+                <NavLink
+                  key={item.to}
+                  to={item.to}
+                  end={item.end}
+                  className={({ isActive }) => cx(link, isActive ? 'bg-surface text-fg shadow-card' : 'text-muted hover:text-fg')}
+                >
+                  <item.icon className="size-4" />
+                  {item.label}
+                </NavLink>
+              ))}
             </nav>
           </div>
           <div className="flex items-center gap-2">
-            {me && me.streak > 0 && (
-              <Link to="/stats" className="inline-flex h-9 items-center gap-1.5 rounded-control bg-warning-soft px-3 text-[13.5px] font-semibold text-warning">
-                <Flame className="size-4" />
-                {me.streak}
-              </Link>
+            {me && (
+              <Button
+                variant="ghost"
+                size="icon-sm"
+                aria-label="Sign out"
+                onClick={() => {
+                  logout.mutate()
+                  navigate('/')
+                }}
+              >
+                <LogOut />
+              </Button>
             )}
-            <NavLink to="/settings" className="grid size-9 place-items-center rounded-full">
-              {me && <Avatar name={me.user.name ?? me.user.email ?? 'You'} hue={250} src={me.user.picture} size={32} />}
-            </NavLink>
+            {me && <Avatar name={me.displayName || me.email} hue={250} size={32} />}
           </div>
         </div>
       </header>
       <main className="mx-auto max-w-[1120px] px-5 py-8 sm:px-8 sm:py-10">
         <Outlet />
       </main>
-      <nav className="fixed inset-x-0 bottom-0 z-30 grid grid-cols-2 border-t border-line bg-bg/90 p-2 backdrop-blur-xl sm:hidden">
-        <NavLink to="/" end className={({ isActive }) => cx('flex h-11 items-center justify-center rounded-control text-[14px] font-medium', isActive ? 'bg-surface shadow-card' : 'text-muted')}>
-          Library
-        </NavLink>
-        <NavLink to="/stats" className={({ isActive }) => cx('flex h-11 items-center justify-center rounded-control text-[14px] font-medium', isActive ? 'bg-surface shadow-card' : 'text-muted')}>
-          Progress
-        </NavLink>
+      <nav className="fixed inset-x-0 bottom-0 z-30 flex items-center justify-around gap-1 overflow-x-auto border-t border-line bg-bg/90 p-2 backdrop-blur-xl lg:hidden">
+        {NAV.map((item) => (
+          <NavLink
+            key={item.to}
+            to={item.to}
+            end={item.end}
+            className={({ isActive }) => cx('flex h-11 flex-1 items-center justify-center gap-1 rounded-control text-[12px] font-medium', isActive ? 'bg-surface shadow-card' : 'text-muted')}
+          >
+            <item.icon className="size-4" />
+            <span className="hidden sm:inline">{item.label}</span>
+          </NavLink>
+        ))}
       </nav>
-    </div>
-  )
-}
-
-/** Full-screen frame for study modes: a slim header with a way out. */
-export function StudyFrame({ title, progress, onExit, children, right }: { title: string; progress?: number; onExit: () => void; children: React.ReactNode; right?: React.ReactNode }) {
-  return (
-    <div className="flex min-h-screen flex-col">
-      <header className="sticky top-0 z-30 bg-bg/90 backdrop-blur-xl">
-        <div className="mx-auto flex h-16 max-w-[920px] items-center gap-4 px-5 sm:px-8">
-          <button type="button" onClick={onExit} className="inline-flex h-9 items-center rounded-control px-3 text-[14px] font-medium text-muted transition-colors hover:bg-surface hover:text-fg">
-            Exit
-          </button>
-          <p className="min-w-0 flex-1 truncate text-center text-[14px] font-medium">{title}</p>
-          <div className="flex min-w-[64px] justify-end">{right}</div>
-        </div>
-        {progress !== undefined && (
-          <div className="mx-auto h-1 max-w-[920px] px-5 sm:px-8">
-            <div className="h-full overflow-hidden rounded-[2px] bg-raised">
-              <div className="h-full rounded-[2px] bg-accent transition-[width] duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]" style={{ width: `${Math.round(progress * 100)}%` }} />
-            </div>
-          </div>
-        )}
-      </header>
-      <main className="mx-auto flex w-full max-w-[920px] flex-1 flex-col px-5 py-8 sm:px-8">{children}</main>
     </div>
   )
 }

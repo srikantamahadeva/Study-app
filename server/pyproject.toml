@@ -1,0 +1,33 @@
+[project]
+name = "algo-study"
+version = "0.1.0"
+description = "Personal AI-powered algorithmic trading study platform (education and research only)"
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.20.1",
+    "argon2-cffi>=25.1.0",
+    "fastapi>=0.160.0",
+    "httpx>=0.28.1",
+    "pgserver>=0.1.4",
+    "psycopg[binary]>=3.3.6",
+    "pydantic-settings>=2.16.1",
+    "pydantic[email]>=2.14.1",
+    "pypdf>=6.21.2",
+    "python-multipart>=0.0.32",
+    "sqlalchemy>=2.1.6",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.uv]
+package = false
